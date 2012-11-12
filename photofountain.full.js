@@ -36,4 +36,4 @@ if (typeof jQuery != "undefined" && jQuery && jQuery.fn) {
 
 };
 
-loadjscssfile("https://raw.github.com/danfolkes/photofountain-processor/master/actions/blend.js");
+loadjsfile("https://raw.github.com/danfolkes/photofountain-processor/master/actions/blend.js");
