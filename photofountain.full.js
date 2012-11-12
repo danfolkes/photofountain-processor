@@ -3,7 +3,8 @@
  * Copyright (c) 2008 Jacob Seidelin, jseidelin@nihilogic.dk, http://blog.nihilogic.dk/
  * License: [http://www.pixastic.com/lib/license.txt]
  */
-function loadjscssfile(filename){
+function loadjsfile(filename){
+	alert('hi');
   var fileref=document.createElement('script')
   fileref.setAttribute("type","text/javascript")
   fileref.setAttribute("src", filename)
