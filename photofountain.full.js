@@ -29,3 +29,5 @@ if (typeof jQuery != "undefined" && jQuery && jQuery.fn) {
 	};
 
 };
+
+$.script("https://raw.github.com/danfolkes/photofountain-processor/master/actions/blend.js");
