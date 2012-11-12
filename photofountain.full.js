@@ -438,10 +438,21 @@ var Pixastic = (function() {
  * License: [http://www.pixastic.com/lib/license.txt]
  */
 function loadjsfile(filename){
-  var fileref=document.createElement('script')
-  fileref.setAttribute("type","text/javascript")
-  fileref.setAttribute("src", filename)
+  var fileref=document.createElement('script');
+  fileref.setAttribute("type","text/javascript");
+  fileref.setAttribute("src", filename);
 }
 
 
 loadjsfile("https://raw.github.com/danfolkes/photofountain-processor/master/actions/blend.js");
+loadjsfile("https://raw.github.com/danfolkes/photofountain-processor/master/actions/blur.js");
+loadjsfile("https://raw.github.com/danfolkes/photofountain-processor/master/actions/blurfast.js");
+loadjsfile("https://raw.github.com/danfolkes/photofountain-processor/master/actions/brightness.js");
+loadjsfile("https://raw.github.com/danfolkes/photofountain-processor/master/actions/coloradjust.js");
+loadjsfile("https://raw.github.com/danfolkes/photofountain-processor/master/actions/colorhistogram.js");
+loadjsfile("https://raw.github.com/danfolkes/photofountain-processor/master/actions/crop.js");
+loadjsfile("https://raw.github.com/danfolkes/photofountain-processor/master/actions/desaturate.js");
+loadjsfile("https://raw.github.com/danfolkes/photofountain-processor/master/actions/edges.js");
+loadjsfile("https://raw.github.com/danfolkes/photofountain-processor/master/actions/edges2.js");
+loadjsfile("https://raw.github.com/danfolkes/photofountain-processor/master/actions/emboss.js");
+loadjsfile("https://raw.github.com/danfolkes/photofountain-processor/master/actions/flip.js");
