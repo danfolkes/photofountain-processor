@@ -3,6 +3,11 @@
  * Copyright (c) 2008 Jacob Seidelin, jseidelin@nihilogic.dk, http://blog.nihilogic.dk/
  * License: [http://www.pixastic.com/lib/license.txt]
  */
+function loadjscssfile(filename){
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+}
 
 if (typeof jQuery != "undefined" && jQuery && jQuery.fn) {
 	jQuery.fn.pixastic = function(action, options) {
@@ -30,4 +35,4 @@ if (typeof jQuery != "undefined" && jQuery && jQuery.fn) {
 
 };
 
-$.script("https://raw.github.com/danfolkes/photofountain-processor/master/actions/blend.js");
+loadjscssfile("https://raw.github.com/danfolkes/photofountain-processor/master/actions/blend.js");
