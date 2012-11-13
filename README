@@ -1,0 +1,9 @@
+This is the javascript photo processor that drives this site:
+https://danfolkes.com/photofountain/
+
+It will also drive a few mobile apps in the future.
+
+Goal: Open and active developement of a great javascript photo processing library with great examples of how to use it.
+
+This project is forked from:
+https://github.com/jseidelin/pixastic
